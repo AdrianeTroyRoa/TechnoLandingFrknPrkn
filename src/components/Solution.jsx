@@ -4,11 +4,8 @@ import {
   SimpleGrid,
   Image,
   Flex,
-  Heading,
   Text,
   Stack,
-  StackDivider,
-  useColorModeValue,
 } from "@chakra-ui/react";
 
 function Feature({ text, iconBg }) {
