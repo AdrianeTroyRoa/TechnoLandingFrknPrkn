@@ -1,3 +1,5 @@
+import About from "./About";
+
 import {
   Box,
   Heading,
@@ -13,12 +15,20 @@ import {
 export default function Cover() {
   return (
     <>
-      <Container maxW={"3xl"}>
+      <Container
+        maxW={"container.xl"}
+        minH={"100vh"}
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        flexDirection={"column"}
+      >
         <Stack
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}
+          maxW={"3xl"}
         >
           <Heading
             fontWeight={600}
@@ -55,6 +65,7 @@ export default function Cover() {
             </Button>
           </Stack>
         </Stack>
+        <About />
       </Container>
     </>
   );
