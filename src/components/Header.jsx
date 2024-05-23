@@ -24,7 +24,7 @@ function Header() {
               color="black"
               _hover={{ bg: "#FF8C32", color: "white" }}
             >
-              <Text fontSize="xl" key={index}>
+              <Text fontSize="l" key={index}>
                 {key}
               </Text>
             </Box>
