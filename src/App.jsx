@@ -1,14 +1,10 @@
-import { useState } from "react";
-import { Container } from "@chakra-ui/react";
-import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <Container>
-      Hello, world!
-    </Container>
+    <>
+      <Header />
+    </>
   );
 }
 
