@@ -12,7 +12,9 @@ import {
 const Feature = ({ title, text }) => {
   return (
     <Stack>
-      <Text fontWeight={600} fontSize='3xl' color="orange">{title}</Text>
+      <Text fontWeight={600} fontSize="3xl" color="orange">
+        {title}
+      </Text>
       <Text color={"gray.600"}>{text}</Text>
     </Stack>
   );
@@ -21,9 +23,9 @@ const Feature = ({ title, text }) => {
 export default function About() {
   return (
     <Container maxW={"container.xl"} id="about">
-      <Center>
-        <Text fontSize="5xl" fontWeight={500}>Our 3Ps Philosophy</Text>
-      </Center>
+      <Text fontSize="5xl" fontWeight={500} textAlign={"Center"}>
+        Our 3Ps Philosophy
+      </Text>
       <Box p={4}>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
           <Feature

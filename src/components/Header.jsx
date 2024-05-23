@@ -6,7 +6,7 @@ function Header() {
     Home: "home",
     "About Us": "about",
     "Innovative Venture": "venture",
-    "Unique Selling Propositions": "value",
+    "Contact Us": "contact",
   };
 
   const menuItemKeys = Object.keys(menuItems);
