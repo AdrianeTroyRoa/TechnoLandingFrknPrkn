@@ -22,7 +22,7 @@ function Header() {
               p="4"
               bg="white"
               color="black"
-              _hover={{ bg: "orange", color: "white" }}
+              _hover={{ bg: "#FF8C32", color: "white" }}
             >
               <Text fontSize="xl" key={index}>
                 {key}
