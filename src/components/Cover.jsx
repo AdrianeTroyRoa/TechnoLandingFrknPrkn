@@ -1,5 +1,6 @@
 import About from "./About";
 
+import Download from "./Download";
 import {
   Box,
   Heading,
@@ -22,6 +23,7 @@ export default function Cover() {
         justifyContent={"center"}
         alignItems={"center"}
         flexDirection={"column"}
+        id="home"
       >
         <Stack
           as={Box}
@@ -52,17 +54,7 @@ export default function Cover() {
             alignSelf={"center"}
             position={"relative"}
           >
-            <Button
-              colorScheme={"green"}
-              bg={"#FF8C32"}
-              rounded={"full"}
-              px={6}
-              _hover={{
-                bg: "#F27830",
-              }}
-            >
-              Download the App
-            </Button>
+            <Download />
           </Stack>
         </Stack>
         <About />
