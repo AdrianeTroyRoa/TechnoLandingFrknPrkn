@@ -27,7 +27,7 @@ function Feature({ text, iconBg }) {
 function Solution() {
   return (
     <Container maxW={"7xl"} py={12} marginY={14}>
-      <Text fontSize="5xl" fontWeight={500} textAlign={"Center"}>
+      <Text fontSize="5xl" fontWeight={500} textAlign={"Center"} marginBottom={14}>
         The Key Issue
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>

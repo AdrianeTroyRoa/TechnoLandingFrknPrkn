@@ -61,7 +61,7 @@ export default function Cover() {
                 bg: "#F27830",
               }}
             >
-              Learn More
+              Download the App
             </Button>
           </Stack>
         </Stack>
