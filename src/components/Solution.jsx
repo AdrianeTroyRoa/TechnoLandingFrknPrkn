@@ -26,7 +26,7 @@ function Feature({ text, iconBg }) {
 
 function Solution() {
   return (
-    <Container maxW={"7xl"} py={12}>
+    <Container maxW={"7xl"} py={12} marginY={14}>
       <Text fontSize="5xl" fontWeight={500} textAlign={"Center"}>
         The Key Issue
       </Text>
